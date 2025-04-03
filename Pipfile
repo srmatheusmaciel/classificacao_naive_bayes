@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+optuna = "*"
 pandas = "*"
 plotly = "*"
 matplotlib = "*"
@@ -17,7 +18,6 @@ flask = "*"
 pydantic = "*"
 flask-pydantic = "*"
 pyarrow = "*"
-optuna = "*"
 
 [dev-packages]
 
