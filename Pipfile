@@ -5,8 +5,8 @@ name = "pypi"
 
 [packages]
 optuna = "*"
+numpy = "==1.23.5"
 pandas = "*"
-plotly = "*"
 matplotlib = "*"
 statsmodels = "*"
 nbformat = "*"
@@ -18,7 +18,7 @@ flask = "*"
 pydantic = "*"
 flask-pydantic = "*"
 pyarrow = "*"
-numpy = "==1.23.5"
+plotly = "==5.19.0"
 
 [dev-packages]
 
