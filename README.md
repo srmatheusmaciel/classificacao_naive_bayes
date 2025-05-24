@@ -38,8 +38,13 @@ cd classificacao_naive_bayes
 # Usando pipenv
 pipenv install
 
-# Ou usando pip
-pip install pandas plotly matplotlib statsmodels scikit-learn ipykernel ipywidgets sweetviz flask optuna
+pipenv install pandas matplotlib statsmodels nbformat ipykernel scikit-learn ipywidgets sweetviz flask pydantic Flask-PyDantic pyarrow
+pipenv install plotly==5.19.0
+
+# pip install --upgrade pip setuptools (se der erro na instalação ou na importação)
+
+pipenv shell
+
 ```
 
 3. Ative o ambiente virtual (se estiver usando pipenv):
